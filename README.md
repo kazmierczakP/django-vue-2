@@ -6,8 +6,8 @@
 
 ```npm install -g @vue/cli```
 
-vue create my-project
+```vue create my-project```
 
-cd my-project
+```cd my-project```
 
-npm run serve
+```npm run serve```
