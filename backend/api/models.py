@@ -8,5 +8,8 @@ class Students(models.Model):
     Course = models.CharField(max_length=140)
     Rating = models.IntegerField()
 
+    def __str__(self):
+        return self.StudName
+
     class Meta:
-        ordering = ['StudId']
+        ordering = ['StudName']
