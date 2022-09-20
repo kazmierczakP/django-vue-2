@@ -11,5 +11,5 @@ from rest_framework import routers
 from . import views
 
 router = routers.DefaultRouter()
-router.register('students', views.StudentsViewSet, basename='Students')
+router.register('students', views.StudentsViewSet)
 urlpatterns = router.urls
