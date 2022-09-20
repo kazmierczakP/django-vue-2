@@ -12,4 +12,4 @@ class Students(models.Model):
         return self.StudName
 
     class Meta:
-        ordering = ['StudName']
+        ordering = ['StudId']
