@@ -14,6 +14,8 @@
 
 ```npm run serve```
 
+Ctrl+space to autocomplete code
+
 ## Django
 
 ### instalation
