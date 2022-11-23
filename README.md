@@ -38,3 +38,12 @@ Ctrl+space to autocomplete code
 ```python manage.py runserver```
 
 
+## Usage
+
+example post call
+
+{
+    "StudName": "test",
+    "Course": "resdy",
+    "Rating": 123
+}
