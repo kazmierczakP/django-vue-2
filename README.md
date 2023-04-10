@@ -36,6 +36,12 @@ example post call:
 
 ```docker run --name backend_container -p 8000:8000 -it backend_image```
 
+```cd frontend```
+
+```docker build -t frontend_image .```
+
+```docker run --name frontend_container -p 8080:8080 -it frontend_image```
+
 ## Vue
 
 ### instalation
