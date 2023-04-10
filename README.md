@@ -1,6 +1,34 @@
 # django-vue-2
 
-## VUE
+## Usage
+
+### Vue
+
+```cd frontend```
+
+```npm run serve```
+
+### Django
+
+```cd backend```
+
+```python manage.py runserver```
+
+### endpoints:
+
+```http://127.0.0.1:8000/api/students/```
+
+```http://localhost:8080/```
+
+example post call:
+
+{
+    "StudName": "test",
+    "Course": "resdy",
+    "Rating": 123
+}
+
+## Vue
 
 ### instalation
 
@@ -38,12 +66,8 @@ Ctrl+space to autocomplete code
 ```python manage.py runserver```
 
 
-## Usage
+### Side notes:
 
-example post call
+To make requirements.txt use:
 
-{
-    "StudName": "test",
-    "Course": "resdy",
-    "Rating": 123
-}
+```pip list --format=freeze > requirements2.txt ```
