@@ -40,7 +40,7 @@ export default {
   name: 'App',
   data(){
     return {
-      msg: 'system test',
+      msg: 'e-note',
       students: [],
       student: {},
     }
