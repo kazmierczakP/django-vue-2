@@ -28,6 +28,14 @@ example post call:
     "Rating": 123
 }
 
+### contenerization
+
+```cd backend```
+
+```docker build -t backend_image .```
+
+```docker run --name backend_container -p 8000:8000 -it backend_image```
+
 ## Vue
 
 ### instalation
@@ -71,3 +79,5 @@ Ctrl+space to autocomplete code
 To make requirements.txt use:
 
 ```pip list --format=freeze > requirements2.txt ```
+
+Requirements containt ony 3 packages for the purpose of building image.
