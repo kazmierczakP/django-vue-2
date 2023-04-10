@@ -1,4 +1,4 @@
-# django-vue-2
+# django-vue_e-note
 
 ## Usage
 
