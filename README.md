@@ -1,5 +1,7 @@
 # django-vue_e-note
 
+![Screenshot](preview.png)
+
 ## Usage
 
 ### frontend
