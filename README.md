@@ -2,13 +2,13 @@
 
 ## Usage
 
-### Vue
+### frontend
 
 ```cd frontend```
 
 ```npm run serve```
 
-### Django
+### backend
 
 ```cd backend```
 
